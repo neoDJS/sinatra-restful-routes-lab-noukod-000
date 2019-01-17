@@ -3,5 +3,5 @@
 <h4><%=@recipe.cook_time%></h4>
 <form class="" action="/recipes/<%=@recipe.id%>/delete" method="post">
   <input id="hidden" type="hidden" name="_method" value="delete">
-  <p><a href="/recipes/<%=@recipe.id%>/edit"><input type="button"value="Edit"></a><input type="submit" id="submit" value="Delete"></p>
+  <p><a href="/recipes/<%=@recipe.id%>/edit"><input type="button"value="Edit"></a><input type="submit" id="delete" value="Delete"></p>
 </form>
